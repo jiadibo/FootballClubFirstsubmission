@@ -6,7 +6,6 @@ import org.jetbrains.anko.setContentView
 
 class DescriptionActivity : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val posisi = intent.getIntExtra("id", 0)
